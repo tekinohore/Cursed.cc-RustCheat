@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{cc01cadc-391c-4907-b7bb-4296cccb9457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk">
+      <UniqueIdentifier>{5f392fa9-1698-4200-a62c-2ab8633b0371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cheat">
+      <UniqueIdentifier>{03a8b386-acf1-4ca9-82c5-2098da2d41c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{4a9c7b7a-9159-43f2-80df-6d7bc4d754c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\HDE">
+      <UniqueIdentifier>{ccd40a52-559f-4372-8ac9-b4f6ffd5b701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{117bdcbc-a7e4-44e0-9ab2-e03ace856803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Config">
+      <UniqueIdentifier>{a98b6faf-df0e-4ddd-918d-79af078d4b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main">
+      <UniqueIdentifier>{67caad19-5894-490a-9d69-dbb22224f72b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\utils.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk_new\math.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vars\vars.h">
+      <Filter>src\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\hde32.h">
+      <Filter>MinHook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\hde64.h">
+      <Filter>MinHook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\table32.h">
+      <Filter>MinHook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\table64.h">
+      <Filter>MinHook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\pstdint.h">
+      <Filter>MinHook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\buffer.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\trampoline.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_stdlib.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>src\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>src\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>src\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>src\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>src\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="crt.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\Aim.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\Entity.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\Esp.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\Misc.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\New.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Ofssets.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\include\MinHook.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeetFont.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Kamazity_Icon.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="NGui.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\safe.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vacuum_icon_redgy.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Montserrat-Regular.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Montserrat-Medium.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_elements.hpp" />
+    <ClInclude Include="Myriad-Pro_31655.h" />
+    <ClInclude Include="byte.h" />
+    <ClInclude Include="lazy.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Minhook\src\HDE\hde64.c">
+      <Filter>MinHook\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\HDE\hde32.c">
+      <Filter>MinHook\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\buffer.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\trampoline.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\hook.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_stdlib.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="custom_elements.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
